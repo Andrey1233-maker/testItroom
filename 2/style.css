@@ -1,0 +1,34 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.task-list {
+    padding: 10px;
+    border-radius: 10px;
+    background: #d7d6d6;
+    margin-bottom: 10px;
+}
+
+.task-block {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.task-content-choosen {
+    text-decoration: line-through;
+}
+
+#remove-btn {
+    display: none;
+}
+
+.choose-all-btn {
+    margin-bottom: 10px;
+}
